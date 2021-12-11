@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main{
+  text-align: center;
+  margin-top: 25px;
+  /* border: solid 3px black; */
+  
+}
+input{
+  color: teal;
+  border: solid 1px teal;
+  border-radius: 19px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.toggler{
+  background-color: black;
+  color: whitesmoke;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  padding: 5px;
+  margin-left: 9px;
+}
+.country{
+  color: teal;
+  text-align: center;
+  margin-top: 5px;
+}
+.country hr {
+  color: red;
+  width: 82%;
+}
+.country .flag{
+  border: solid 2px black;
+}
