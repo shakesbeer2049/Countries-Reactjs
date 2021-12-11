@@ -19,7 +19,7 @@ const Country = ({ name }) => {
   function toggler() {
     setShow(!show);
   }
-  console.log(name.flags.png);
+ 
   if(show) {
      
     return (
